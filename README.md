@@ -1,4 +1,6 @@
-# Run
+# Application
+
+## Run
 
 To run the collection web service execute command below in root of repo:
 
@@ -12,6 +14,6 @@ To run the collection util web service execute command below in root of repo:
 poetry run start-util-collection-service
 ```
 
-# Exit
+## Exit
 
 Use keyboard interrupt

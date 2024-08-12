@@ -4,9 +4,19 @@ version = "0.1.0"
 description = ""
 authors = ["IndianMax03"]
 readme = "README.md"
+packages = [
+    { include = "collection_service" },
+    { include = "util_service" }
+]
+
+[tool.poetry.scripts]
+start-collection-service = "collection_service.main:start"
+start-util-collection-service = "util_service.main:start"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+fastapi = "^0.112.0"
+uvicorn = "^0.30.5"
 
 
 [build-system]
